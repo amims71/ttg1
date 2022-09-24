@@ -22,7 +22,7 @@
 		</div>
 	</div>
 	<!-- End Page Title Area -->
-	
+
 	<!-- Start Contact Box Area -->
 	<section class="contact-info-wrapper">
 		<div class="container">
@@ -35,33 +35,33 @@
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="contact-info-content">
-						<h5>USA Headquarter</h5>
-						<p>304 NW St Homestead, Florida, Melrose Street, Water Mill, 76B Overlook Drive Chester, PA 19013, Flemingsburg USA.</p>
-						<a href="tel:0802235678">080 707 555-321</a>
-						<a href="mailto:demo@example.com">demo@example.com</a>
+						<h5>Bangladesh</h5>
+						<p>3rd floor, CB 211/4, VIP Road, Kochukhet, Bhashantek, Dhaka 1215.</p>
+						<a href="tel:+8801888680010">+880 18 8868 0010</a>
+						<a href="mailto:info@totaltechglobal.com">info@totaltechglobal.com</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="contact-info-content">
 						<h5>New York Office</h5>
-						<p>1540 Pecks Ridge Tilton Rd Flemingsburg, Kentucky(KY), 4104188 Fulton Street Blackwood, NJ 08012, London.</p>
-						<a href="tel:0802235678">080 707 555-321</a>
-						<a href="mailto:demo@example.com">demo@example.com</a>
+						<p>15015 Sanford avenue, <br>flushing. NY11355.</p>
+						<a href="tel:+19294146358">+1 (929) 414-6358</a>
+						<a href="mailto:info@totaltechglobal.com">info@totaltechglobal.com</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="contact-info-content">
 						<h5>Panama Office</h5>
-						<p>103 Richard Ave Ashville, Ohio, Water Mill,3468 16th Hwy Pangburn, Arkansas(AR), Charolais Ashville, Virginia, Panama.</p>
-						<a href="tel:0802235678">080 707 555-321</a>
-						<a href="mailto:demo@example.com">demo@example.com</a>
+						<p>568 Collins street <br>Melbourne Victoria Australia</p>
+						<a href="tel:+61406936703">+61 (406) 936703</a>
+						<a href="mailto:info@totaltechglobal.com">info@totaltechglobal.com</a>
 					</div>
 				</div>
 			</div>
 		</div>
     </section>
 	<!-- End Contact Box Area -->
-	
+
 	<!-- Start Contact Section -->
 	<div class="contact-section bg-grey section-padding">
 		<div class="container">
@@ -111,7 +111,7 @@
 		</div>
 	</div>
 	<!-- End Contact Section -->
-	
+
     <!-- Map Section Start -->
     <div class="map-area">
         <div class="map-content">
@@ -119,5 +119,5 @@
         </div>
     </div>
     <!-- Map Section End -->
-	
+
 @endsection
