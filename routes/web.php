@@ -22,9 +22,15 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/', function (){
+    return view('home.index');
+})->name('home');
 Route::get('/products', [ProductsController::class, 'index'])->name('products');
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/blogs', [BlogsController::class, 'index'])->name('blogs');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+Auth::routes();
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
