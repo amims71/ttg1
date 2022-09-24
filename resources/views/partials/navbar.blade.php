@@ -7,8 +7,8 @@
 				<div class="techvio-responsive-menu">
 					<div class="logo">
 						<a href="index.html">
-							<img src="{{ URL::asset('assets/img/logo.png') }}" class="white-logo" alt="logo">
-							<img src="{{ URL::asset('assets/img/logo-black.png') }}" class="black-logo" alt="logo">
+							<img src="{{ URL::asset('assets/img/logo.png') }}" style="height: 50px;" class="white-logo" alt="logo">
+							<img src="{{ URL::asset('assets/img/logo-black.png') }}" style="height: 50px;" class="black-logo" alt="logo">
 						</a>
 					</div>
 				</div>
@@ -18,12 +18,12 @@
 			<div class="container">
 				<nav class="navbar navbar-expand-md navbar-light">
 					<a class="navbar-brand" href="index.html">
-						<img src="{{ URL::asset('assets/img/logo.png') }}" class="white-logo" alt="logo">
-						<img src="{{ URL::asset('assets/img/logo-black.png') }}" class="black-logo" alt="logo">
+						<img src="{{ URL::asset('assets/img/logo.png') }}" style="height: 50px;" class="white-logo" alt="logo">
+						<img src="{{ URL::asset('assets/img/logo-black.png') }}" style="height: 50px;" class="black-logo" alt="logo">
 					</a>
 					<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 						<ul class="navbar-nav">
-							<li class="nav-item"> 
+							<li class="nav-item">
 								<a href="/" class="nav-link">Home</a>
 							</li>
 							<li class="nav-item">
@@ -32,10 +32,10 @@
 							<li class="nav-item">
 								<a href="#" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"> 
+									<li class="nav-item">
 										<a href="{{ route('services') }}" class="nav-link">Services</a>
 									</li>
-									<li class="nav-item"> 
+									<li class="nav-item">
 										<a href="{{ route('services') }}" class="nav-link">Services Details</a>
 									</li>
 								</ul>
@@ -51,7 +51,7 @@
 									</li>
 								</ul>
 							</li>
-							<li class="nav-item"> 
+							<li class="nav-item">
 								<a href="#" class="nav-link">Pages <i class="fas fa-chevron-down"></i></a>
 								<ul class="dropdown-menu">
 									<li class="nav-item">

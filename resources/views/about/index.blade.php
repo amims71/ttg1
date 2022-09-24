@@ -22,7 +22,7 @@
 		</div>
 	</div>
 	<!-- End Page Title Area -->
-	
+
 	<!-- Start About Section -->
 	<section class="about-area section-padding">
 		<div class="container">
@@ -30,7 +30,7 @@
 				<div class="col-lg-6 col-md-12 col-sm-12">
 					<div class="about-content">
 						<div class="about-content-text">
-							<h6>About Our Company</h6> 
+							<h6>About Our Company</h6>
 							<h2>Providing your business with a quality IT service is our passion.</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam, nostrud</p>
 							<div class="skills">
@@ -53,7 +53,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="about-btn-box"> 
+							<div class="about-btn-box">
 								<a class="default-btn project-btn-1" href="projects.html">Learn More<span></span></a>
 							</div>
 						</div>
@@ -72,7 +72,7 @@
 		</div>
 	</section>
 	<!-- End About Section -->
-	
+
 	<!-- Start Counter Section -->
 	<section class="counter-area section-padding">
 		<div class="container">
@@ -125,9 +125,9 @@
 		</div>
 	</section>
 	<!-- End Counter Section -->
-	
+
 	<!-- Start Team Section -->
-	<section class="team-area section-padding">
+	<section class="team-area section-padding hide">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -204,7 +204,7 @@
 		</div>
 	</section>
 	<!-- End Team Section -->
-	
+
 	<!-- Start Testimonial Section -->
 	<section class="testimonial-section pb-100">
 		<div class="container">
@@ -293,7 +293,7 @@
 		</div>
 	</section>
 	<!-- End Testimonial Section -->
-	
+
 	<!-- Start Hire Section -->
 	<section class="hire-section">
 		<div class="container">
@@ -313,7 +313,7 @@
 		</div>
 	</section>
 	<!-- End Hire Section -->
-	
+
 	<!-- Start Partner section -->
 	<section class="partner-section pt-100 pb-70">
 		<div class="container">

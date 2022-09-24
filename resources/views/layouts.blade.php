@@ -34,7 +34,8 @@
 	<link rel="stylesheet" href="{{ URL::asset('assets/css/style.css') }}">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="{{ URL::asset('assets/css/responsive.css') }}">
-	
+	<link rel="stylesheet" href="{{ URL::asset('assets/css/mystyle.css') }}">
+
 	@yield("page-css")
 </head>
 
@@ -50,11 +51,11 @@
 	<!-- End Preloader Area -->
 
 	@include('partials.navbar')
-	
+
 	@yield('section-content')
-	
+
 	@include('partials.footer')
-	
+
 	<!-- Start Copy Right Section -->
 	<div class="copyright-area">
 		<div class="container">
@@ -74,14 +75,14 @@
 		</div>
 	</div>
 	<!-- End Copy Right Section -->
-	
+
 	<!-- Start Go Top Section -->
 	<div class="go-top">
 		<i class="fas fa-chevron-up"></i>
 		<i class="fas fa-chevron-up"></i>
 	</div>
 	<!-- End Go Top Section -->
-	
+
 	<!-- jQuery Min JS -->
 	<script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
 	<!-- Popper Min JS -->
@@ -109,9 +110,9 @@
 	<script src="{{ URL::asset('assets/js/wow.min.js') }}"></script>
 	<!-- Main JS -->
 	<script src="{{ URL::asset('assets/js/main.js') }}"></script>
-	
+
 	@yield("page-script")
-	
+
 </body>
 
 </html>

@@ -23,7 +23,7 @@
 		</div>
 	</div>
 	<!-- End Page Title Area -->
-	
+
 	<!-- Start Blog Section -->
 	<section class="blog-section section-padding">
 		<div class="container">
@@ -221,5 +221,5 @@
 		</div>
 	</section>
 	<!-- End Blog Section -->
-     
+
 @endsection
