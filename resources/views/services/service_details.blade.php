@@ -6,15 +6,15 @@
 
 
 	<!-- Start Page Title Area -->
-	<div class="page-title-area item-bg2">
+	<div class="page-title-area item-bg1">
 		<div class="d-table">
 			<div class="d-table-cell">
 				<div class="container">
 					<div class="page-title-content">
-						<h2>Services</h2>
+						<h2>Services Details</h2>
 						<ul>
-							<li><a href="/">Home</a></li>
-							<li>Services</li>
+							<li><a href="index.html">Home</a></li>
+							<li>Services Details</li>
 						</ul>
 					</div>
 				</div>
@@ -23,171 +23,126 @@
 	</div>
 	<!-- End Page Title Area -->
 	
-	<!-- Start Services Section -->
-	<section class="services-section section-padding">
+	<!-- Start Services Details Area -->
+	<section class="services-details-area ptb-100">
 		<div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-					<div class="section-title">
-						<h6>What We Provide</h6>
-						<h2>IT Solutions</h2>
-					</div>
-                </div>
-            </div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<i class="flaticon-project-management"></i>
-						</div>
-						<h3>IT Solution</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-						<div class="services-btn-link">
-							<a href="#" class="services-link">Read More</a>
+			<div class="services-details-overview">
+				<div class="row align-items-center">
+					<div class="col-lg-12 col-md-12">
+						<div class="image-sliders owl-carousel owl-theme">
+							<div class="services-details-image">
+								<img src="{{ URL::asset('assets/img/services-details/1.jpg')}}" alt="image">
+							</div>
+							<div class="services-details-image">
+								<img src="{{ URL::asset('assets/img/services-details/2.jpg')}}" alt="image">
+							</div>
+							<div class="services-details-image">
+								<img src="{{ URL::asset('assets/img/services-details/3.jpg')}}" alt="image">
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<i class="flaticon-programming"></i>
-						</div>
-						<h3>Web Development</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-						<div class="services-btn-link">
-							<a href="#" class="services-link">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<i class="flaticon-cpu-1"></i>
-						</div>
-						<h3>Networking Services</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-						<div class="services-btn-link">
-							<a href="#" class="services-link">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<i class="flaticon-coding"></i>
-						</div>
-						<h3>SEO Optimization</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-						<div class="services-btn-link">
-							<a href="#" class="services-link">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<i class="flaticon-mobile-app"></i>
-						</div>
-						<h3>App Optimization</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-						<div class="services-btn-link">
-							<a href="#" class="services-link">Read More</a>
+					<div class="col-lg-12 col-md-12">
+						<div class="services-step-wrapper">
+							<div class="services-step-title">
+								<h2>Software Development Consulting We Provide</h2>
+							</div>
+							<div class="row">
+								<div class="col-lg-6 col-md-12">
+									<div class="services-step-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										<div class="features-text">
+											<h4>Step 1.</h4>
+											<p><strong>Gathering your insights and ideas for software consultation:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										</div>
+										<div class="features-text">
+											<h4>Step 2.</h4>
+											<p><strong>Exploring the environment:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12">
+									<div class="services-step-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										<div class="features-text">
+											<h4>Step 1.</h4>
+											<p><strong>Gathering your insights and ideas for software consultation:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										</div>
+										<div class="features-text">
+											<h4>Step 2.</h4>
+											<p><strong>Exploring the environment:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<i class="flaticon-cloud"></i>
+					<div class="col-lg-12 col-md-12">
+						<div class="services-step-wrapper">
+							<div class="services-step-image">
+								<img src="{{ URL::asset('assets/img/services-details/services-5.jpg')}}" alt="image">
+							</div>
 						</div>
-						<h3>Data Recovery</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-						<div class="services-btn-link">
-							<a href="#" class="services-link">Read More</a>
+						
+						<div class="services-step-wrapper">
+							<div class="services-step-title">
+								<h2>Benefits Of Software Development Consulting Services (IT Consulting)</h2>
+							</div>
+							<div class="row">
+								<div class="col-lg-6 col-md-12">
+									<div class="services-step-content">
+										<div class="features-text">
+											<h4>Love for new ideas</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										</div>
+										<div class="features-text">
+											<h4>Years of experience</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12">
+									<div class="services-step-content">
+										<div class="features-text">
+											<h4>Tangible advice</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										</div>
+										<div class="features-text">
+											<h4>Covering every step</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris nisi commodo consequat.</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- End Services Section -->
-	
-	<!-- Start Hire Section -->
-	<section class="hire-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2 col-md-12">
-					<div class="hire-content">
-						<h6>Want to work with us?</h6>
-						<h2>Digitally transform and grow your business!</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.</p>
-						<div class="hire-btn">
-							<a class="default-btn" href="tel:0802235678">Call Now<span></span></a>
-							<a class="default-btn-one" href="contact.html">Contact Us<span></span></a>
+	<!-- End Services Details Area -->
+	<!-- Start Footer & Subscribe Section -->
+	<section class="footer-subscribe-wrapper">
+		<!-- Start Subscribe Area -->
+		<div class="subscribe-area">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<div class="subscribe-content">
+							<h2>Sign Up Our Newsletter</h2>
+							<span class="sub-title">We Offer An Informative Monthly Technology Newsletter - Check It Out.</span>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Hire Section -->
-	
-	<!-- Start Overview Section -->
-	<section class="overview-section section-padding">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-6">
-					<div class="overview-image">
-						<img src="{{ URL::asset('assets/img/choose-1.jpg') }}" alt="image">
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="overview-content">
-						<h6>Why Choose Us?</h6>
-						<h2>Safeguard your brand with Cyber-Security & IT Solutions</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<ul class="features-list">
-							<li> <span>Remote It Assistance</span></li>
-							<li> <span>Solving IT Problems</span></li>
-							<li> <span>Practice IT Management</span></li>
-							<li> <span>IT Security Services</span></li>
-							<li> <span>Managed IT Service</span></li>
-							<li> <span>Cloud Services</span></li>
-						</ul>
+					<div class="col-lg-6 col-md-6">
+						<form class="newsletter-form">
+							<input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
+							<button type="submit">Subscribe Now</button>
+							<div id="validator-newsletter" class="form-result"></div>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- End Subscribe Area -->
 	</section>
-	<!-- End Overview Section -->
-	
-	<!-- Start Overview Section -->
-	<section class="overview-section pt-50 pb-100">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-6">
-					<div class="overview-content">
-						<h6>WHY TRUST US?</h6>
-						<h2>Achieve digital transformation for your retail business services</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<ul class="features-list">
-							<li> <span>Protect your Business</span></li>
-							<li> <span>Network Security</span></li>
-							<li> <span>Data Security</span></li>
-							<li> <span>Small Business Owners</span></li>
-							<li> <span>Running your Business</span></li>
-							<li> <span>Network Monitoring</span></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="overview-image-2">
-						<img src="{{ URL::asset('assets/img/choose-2.jpg') }}" alt="image">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Overview Section -->
 
 @endsection
