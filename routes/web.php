@@ -29,7 +29,7 @@ Route::get('/', function (){
 })->name('home');
 Route::get('/project', [ProductsController::class, 'index'])->name('project');
 Route::get('/project/details', [ProductsController::class, 'project_details'])->name('project_details');
-Route::get('/products_price', [ProductsController::class, 'products_price'])->name('products_price');
+Route::get('/product_price', [ProductsController::class, 'product_price'])->name('product_price');
 
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/services/details', [ServicesController::class, 'services_details'])->name('services_details');
