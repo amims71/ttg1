@@ -27,19 +27,25 @@ Route::get('/welcome', function () {
 Route::get('/', function (){
     return view('home.index');
 })->name('home');
+
+// project
 Route::get('/project', [ProductsController::class, 'index'])->name('project');
 Route::get('/project/details', [ProductsController::class, 'project_details'])->name('project_details');
 Route::get('/product_price', [ProductsController::class, 'product_price'])->name('product_price');
 
+// services
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/services/details', [ServicesController::class, 'services_details'])->name('services_details');
 Route::get('/team', [ServicesController::class, 'team'])->name('team');
 
+// contact
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
+// blogs
 Route::get('/blogs', [BlogsController::class, 'index'])->name('blogs');
 Route::get('/blogs/details', [BlogsController::class, 'blogs_details'])->name('blogs_details');
 
+// about
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 // 404 page
