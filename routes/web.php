@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogsController;
@@ -41,9 +41,9 @@ Auth::routes();
 // Route::get('/coming_soon', [HomeController::class, 'coming_soon'])->name('coming_soon');
 
 // project
-Route::get('/project', [ProductsController::class, 'index'])->name('project');
-Route::get('/project/details', [ProductsController::class, 'project_details'])->name('project_details');
-Route::get('/product_price', [ProductsController::class, 'product_price'])->name('product_price');
+Route::get('/project', [ProjectController::class, 'index'])->name('project');
+Route::get('/project/details', [ProjectController::class, 'project_details'])->name('project_details');
+Route::get('/pricing-plans', [ProjectController::class, 'pricing_plans'])->name('pricing_plans');
 
 // services
 Route::get('/services', [ServicesController::class, 'index'])->name('services');

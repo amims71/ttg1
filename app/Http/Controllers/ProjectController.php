@@ -4,17 +4,17 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProductsController extends Controller
+class ProjectController extends Controller
 {
     public function index(){
-        return view('products.index');
+        return view('project.index');
     }
 
     public function project_details(){
-        return view('products.project_details');
+        return view('project.project_details');
     }
 
     public function product_price(){
-        return view('products.product_price');
+        return view('project.pricing_plans');
     }
 }
