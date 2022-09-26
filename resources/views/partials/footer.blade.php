@@ -57,10 +57,10 @@
 								<h3>Our Services</h3>
 							</div>
 							<ul class="footer-quick-links">
-								<li> <a href="#">IT Solution</a></li>
+								<li> <a href="/">IT Solution</a></li>
 								<li> <a href="{{route('project')}}">Web Development</a></li>
 								<li> <a href="{{route('services')}}">Networking Services</a></li>
-								<li> <a href="#">SEO Optimization</a></li>
+								<li> <a href="/">SEO Optimization</a></li>
 								<li> <a href="{{route('contact')}}">App Optimization</a></li>
 							</ul>
 						</div>
@@ -72,10 +72,10 @@
 							</div>
 							<ul class="footer-quick-links">
 								<li><a href="{{route('about')}}">About Us</a></li>
-								<li><a href="#">Case Study</a></li>
+								<li><a href="{{route('project')}}">Case Study</a></li>
 								<li><a href="{{route('contact')}}">Contact Us</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="{{route('privacy_policy')}}">Privacy Policy</a></li>
+								<li><a href="{{route('terms_condition')}}">Terms & Conditions</a></li>
 							</ul>
 						</div>
 					</div>

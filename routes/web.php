@@ -9,6 +9,8 @@ use App\Http\Controllers\BlogsController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\NotFoundController;
 use App\Http\Controllers\FaqController;
+use App\Http\Controllers\TermsConditionController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,6 +29,12 @@ Route::get('/welcome', function () {
 Route::get('/', function (){
     return view('home.index');
 })->name('home');
+
+Auth::routes();
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// coming soon 
+Route::get('/coming_soon', [HomeController::class, 'coming_soon'])->name('coming_soon');
 
 // project
 Route::get('/project', [ProductsController::class, 'index'])->name('project');
@@ -54,9 +62,8 @@ Route::get('/not-found', [NotFoundController::class, 'index'])->name('not_found'
 // Faq 
 Route::get('/faq', [FaqController::class, 'index'])->name('faq');
 
-// coming soon 
-Route::get('/coming_soon', [HomeController::class, 'coming_soon'])->name('coming_soon');
+// Terms & Condition 
+Route::get('/terms-condition', [TermsConditionController::class, 'index'])->name('terms_condition');
+Route::get('/privacy-policy', [TermsConditionController::class, 'privacy_policy'])->name('privacy_policy');
 
-Auth::routes();
 
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
