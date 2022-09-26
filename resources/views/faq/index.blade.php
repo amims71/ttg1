@@ -1,20 +1,20 @@
 @extends('layouts')
 
-@section('title', 'Home')
+@section('title', 'Faq')
 
 @section('section-content')
 
 	<!-- Start Page Title Area -->
-	<div class="page-title-area">
+	<div class="page-title-area item-bg2">
 		<div class="d-table">
 			<div class="d-table-cell">
 				<div class="container">
 					<div class="page-title-content">
-						<h2>Contact</h2>
+						<h2>Frequently Ask Question</h2>
 						<ul>
 							<li><a href="index.html">Home</a>
 							</li>
-							<li>Contact</li>
+							<li>Faq</li>
 						</ul>
 					</div>
 				</div>
@@ -22,102 +22,83 @@
 		</div>
 	</div>
 	<!-- End Page Title Area -->
-
-	<!-- Start Contact Box Area -->
-	<section class="contact-info-wrapper">
+	
+	<!-- Start Faq Section -->
+	<section class="faq-section section-padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h6>Contact Information</h6>
-						<h2>Find Us</h2>
+				<div class="col-lg-6">
+					<div class="faq-accordion first-faq-box">
+						<ul class="accordion">
+							<li class="accordion-item">
+								<a class="accordion-title" href="javascript:void(0)"> <i class="fa fa-plus"></i> What do I do when my computer crashes?</a>
+								<p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.</p>
+							</li>
+							<li class="accordion-item">
+								<a class="accordion-title" href="javascript:void(0)"> <i class="fa fa-plus"></i> There is no display on the monitor, what do I do now?</a>
+								<p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.</p>
+							</li>
+							<li class="accordion-item">
+								<a class="accordion-title" href="javascript:void(0)"> <i class="fa fa-plus"></i> How can I clean my keyboard?</a>
+								<p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.</p>
+							</li>
+							<li class="accordion-item">
+								<a class="accordion-title" href="javascript:void(0)"> <i class="fa fa-plus"></i> Why is my computer mouse acting erratically?</a>
+								<p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.</p>
+							</li>
+						</ul>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="contact-info-content">
-						<h5>Bangladesh</h5>
-						<p>3rd floor, CB 211/4, VIP Road, Kochukhet, Bhashantek, Dhaka 1215.</p>
-						<a href="tel:+8801888680010">+880 18 8868 0010</a>
-						<a href="mailto:info@totaltechglobal.com">info@totaltechglobal.com</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="contact-info-content">
-						<h5>New York Office</h5>
-						<p>15015 Sanford avenue, <br>flushing. NY11355.</p>
-						<a href="tel:+19294146358">+1 (929) 414-6358</a>
-						<a href="mailto:info@totaltechglobal.com">info@totaltechglobal.com</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="contact-info-content">
-						<h5>Panama Office</h5>
-						<p>568 Collins street <br>Melbourne Victoria Australia</p>
-						<a href="tel:+61406936703">+61 (406) 936703</a>
-						<a href="mailto:info@totaltechglobal.com">info@totaltechglobal.com</a>
+				<div class="col-lg-6">
+					<div class="faq-accordion">
+						<ul class="accordion">
+							<li class="accordion-item">
+								<a class="accordion-title" href="javascript:void(0)"> <i class="fa fa-plus"></i> What do I do when my computer crashes?</a>
+								<p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.</p>
+							</li>
+							<li class="accordion-item">
+								<a class="accordion-title" href="javascript:void(0)"> <i class="fa fa-plus"></i> There is no display on the monitor, what do I do now?</a>
+								<p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.</p>
+							</li>
+							<li class="accordion-item">
+								<a class="accordion-title" href="javascript:void(0)"> <i class="fa fa-plus"></i> How can I clean my keyboard?</a>
+								<p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.</p>
+							</li>
+							<li class="accordion-item">
+								<a class="accordion-title" href="javascript:void(0)"> <i class="fa fa-plus"></i> Why is my computer mouse acting erratically?</a>
+								<p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.</p>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-    </section>
-	<!-- End Contact Box Area -->
+	</section>
+	<!-- End Faq Section -->
 
-	<!-- Start Contact Section -->
-	<div class="contact-section bg-grey section-padding">
-		<div class="container">
-			<div class="section-title">
-				<h6>Contact Us</h6>
-				<h2>Let's Talk</h2>
-			</div>
-			<div class="row align-items-center">
-				<div class="col-lg-10 offset-lg-1">
-					<div class="contact-form">
-						<p class="form-message"></p><br />
-						<form id="contact-form" class="contact-form form" action="mail.php" method="POST">
-							<div class="row">
-								<div class="col-lg-6 col-md-6">
-									<div class="form-group">
-										<input type="text" name="name" id="name" class="form-control" required placeholder="Your Name">
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6">
-									<div class="form-group">
-										<input type="email" name="email" id="email" class="form-control" required placeholder="Your Email">
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6">
-									<div class="form-group">
-										<input type="text" name="phone" id="phone" required class="form-control" placeholder="Your Phone">
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6">
-									<div class="form-group">
-										<input type="text" name="subject" id="subject" class="form-control" required placeholder="Your Subject">
-									</div>
-								</div>
-								<div class="col-lg-12 col-md-12">
-									<div class="form-group">
-										<textarea name="message" class="form-control" id="message" cols="30" rows="6" required placeholder="Your Message"></textarea>
-									</div>
-								</div>
-								<div class="col-lg-12 col-md-12">
-									<button type="submit" class="default-btn submit-btn">Send Message <span></span></button>
-								</div>
-							</div>
+	<!-- Start Footer & Subscribe Section -->
+	<section class="footer-subscribe-wrapper">
+		<!-- Start Subscribe Area -->
+		<div class="subscribe-area">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<div class="subscribe-content">
+							<h2>Sign Up Our Newsletter</h2>
+							<span class="sub-title">We Offer An Informative Monthly Technology Newsletter - Check It Out.</span>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<form class="newsletter-form">
+							<input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
+							<button type="submit">Subscribe Now</button>
+							<div id="validator-newsletter" class="form-result"></div>
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- End Contact Section -->
-
-    <!-- Map Section Start -->
-    <div class="map-area">
-        <div class="map-content">
-            <div class="map-canvas" id="contact-map"></div>
-        </div>
-    </div>
-    <!-- Map Section End -->
+		<!-- End Subscribe Area -->
+	</section>
 
 @endsection

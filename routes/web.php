@@ -30,11 +30,15 @@ Route::get('/', function (){
     return view('home.index');
 })->name('home');
 
+Route::get('/coming_soon', function (){
+    return view('home.comming_soon');
+})->name('comming_soon');
+
 Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 // coming soon 
-Route::get('/coming_soon', [HomeController::class, 'coming_soon'])->name('coming_soon');
+// Route::get('/coming_soon', [HomeController::class, 'coming_soon'])->name('coming_soon');
 
 // project
 Route::get('/project', [ProductsController::class, 'index'])->name('project');
