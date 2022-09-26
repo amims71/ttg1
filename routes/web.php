@@ -43,7 +43,7 @@ Auth::routes();
 // project
 Route::get('/project', [ProjectController::class, 'index'])->name('project');
 Route::get('/project/details', [ProjectController::class, 'project_details'])->name('project_details');
-Route::get('/pricing-plans', [ProjectController::class, 'pricing_plans'])->name('pricing_plans');
+Route::get('/project/pricing-plans', [ProjectController::class, 'pricing_plans'])->name('pricing_plans');
 
 // services
 Route::get('/services', [ServicesController::class, 'index'])->name('services');

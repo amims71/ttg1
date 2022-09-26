@@ -14,7 +14,7 @@ class ProjectController extends Controller
         return view('project.project_details');
     }
 
-    public function product_price(){
+    public function pricing_plans(){
         return view('project.pricing_plans');
     }
 }
