@@ -30,8 +30,8 @@ Route::get('/', function (){
     return view('home.index');
 })->name('home');
 
-Route::get('/coming_soon', function (){
-    return view('home.comming_soon');
+Route::get('/coming_soon', function (){  
+    return view('home.comming_soon'); 
 })->name('comming_soon');
 
 Auth::routes();
