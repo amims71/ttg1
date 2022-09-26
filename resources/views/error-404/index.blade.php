@@ -4,7 +4,12 @@
 
 @section('section-content')
 
-	
+	<style>
+		.error-area {
+    height: 100% !important;
+}
+		</style>
+
 	<!-- Start Preloader Area -->
 	<div class="preloader">
 		<div class="loader">
