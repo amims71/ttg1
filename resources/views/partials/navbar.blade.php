@@ -44,10 +44,10 @@
 								<a href="#" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
 								<ul class="dropdown-menu">
 									<li class="nav-item">
-										<a href="{{ route('products') }}" class="nav-link">Products</a>
+										<a href="{{ route('project') }}" class="nav-link">Products</a>
 									</li>
 									<li class="nav-item">
-										<a href="{{ route('products') }}" class="nav-link">Products Details</a>
+										<a href="{{ route('project_details') }}" class="nav-link">Products Details</a>
 									</li>
 								</ul>
 							</li>

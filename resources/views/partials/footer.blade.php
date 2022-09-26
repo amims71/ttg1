@@ -58,7 +58,7 @@
 							</div>
 							<ul class="footer-quick-links">
 								<li> <a href="#">IT Solution</a></li>
-								<li> <a href="{{route('products')}}">Web Development</a></li>
+								<li> <a href="{{route('project')}}">Web Development</a></li>
 								<li> <a href="{{route('services')}}">Networking Services</a></li>
 								<li> <a href="#">SEO Optimization</a></li>
 								<li> <a href="{{route('contact')}}">App Optimization</a></li>
