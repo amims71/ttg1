@@ -66,6 +66,9 @@ Route::get('/not-found', [NotFoundController::class, 'index'])->name('not_found'
 // Faq 
 Route::get('/faq', [FaqController::class, 'index'])->name('faq');
 
+// Pricing 
+Route::get('/pricing', [FaqController::class, 'pricing'])->name('pricing');
+
 // Terms & Condition 
 Route::get('/terms-condition', [TermsConditionController::class, 'index'])->name('terms_condition');
 Route::get('/privacy-policy', [TermsConditionController::class, 'privacy_policy'])->name('privacy_policy');
