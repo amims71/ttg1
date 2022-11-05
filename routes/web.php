@@ -30,14 +30,14 @@ Route::get('/', function (){
     return view('home.index');
 })->name('home');
 
-Route::get('/coming_soon', function (){  
-    return view('home.comming_soon'); 
+Route::get('/coming_soon', function (){
+    return view('home.comming_soon');
 })->name('comming_soon');
 
 Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-// coming soon 
+// coming soon
 // Route::get('/coming_soon', [HomeController::class, 'coming_soon'])->name('coming_soon');
 
 // project
@@ -63,11 +63,14 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 // 404 page
 Route::get('/not-found', [NotFoundController::class, 'index'])->name('not_found');
 
-// Faq 
+// Faq
 Route::get('/faq', [FaqController::class, 'index'])->name('faq');
 
-// Terms & Condition 
+// Terms & Condition
 Route::get('/terms-condition', [TermsConditionController::class, 'index'])->name('terms_condition');
 Route::get('/privacy-policy', [TermsConditionController::class, 'privacy_policy'])->name('privacy_policy');
 
+Route::group(['prefix' => 'admin'], function () {
+    Route::resource('/', TermsConditionController::class);
+});
 
