@@ -1,3 +1,178 @@
+.home-area {
+    /*background: linear-gradient(to bottom, #370b6f, #00429b, #006dba, #0095ce, #2dbcdc);*/
+    background: linear-gradient(to bottom, #38c4e5, #167B95);
+}
+
 .hidden {
     display: none!important;
+}
+
+.services-icon i {
+    color: #167B95; !important;
+}
+
+.single-services-item .services-btn-link .services-link {
+    color: #167B95; !important;
+}
+
+.default-btn {
+    background-color: #167B95; !important;
+}
+
+.section-title h6 {
+    color: #167B95; !important;
+}
+
+.about-content h6 {
+    color: #167B95; !important;
+}
+
+.overview-content h6 {
+    color: #167B95; !important;
+}
+
+.partner-title h6 {
+    color: #167B95; !important;
+}
+
+.about-image .years-design h5 {
+    color: #167B95; !important;
+}
+
+.overview-content .features-list li span {
+    border-left: 2px solid #167B95; !important;
+}
+
+.about-image .years-design {
+    border-bottom: 2px solid #167B95; !important;
+}
+
+.overview-content .features-list li span:before {
+    background-color: #167B95; !important;
+}
+
+.single-testimonial .avatar img {
+    border-left-color: #167B95; !important;
+    border-bottom-color: #167B95; !important;
+}
+
+.hire-content h6 {
+    color: #167B95; !important;
+}
+
+.default-btn-one {
+    color: #167B95; !important;
+}
+
+.default-btn-one span {
+    background-color: #167B95; !important;
+}
+
+.default-btn span {
+    background-color: #147B96; !important;
+}
+
+a:hover {
+    color: #167B95; !important;
+}
+
+.newsletter-form button:hover {
+    background-color: #147B96;
+    color: #ffffff;
+}
+
+.price-tag h3 {
+    background-color: #167B95; !important;
+}
+
+.price-heading .price-usd h2 {
+    color: #167B95; !important;
+}
+
+.single-pricing-content .price-btn .price-btn-one {
+    background-color: #167B95; !important;
+    border: 2px solid #167B95; !important;
+}
+
+.go-top {
+    background-color: #167B95; !important;
+}
+
+.preloader::before, .preloader::after {
+    background-color: #167B95; !important;
+}
+
+.contact-form form .form-control {
+    border-left: 2px solid #167B95; !important;
+}
+
+.projects-details-desc .project-details-info .single-info-box .default-btn {
+    background-color: #167B95; !important;
+    border: 2px solid #167B95; !important;
+}
+
+.projects-details-desc .project-details-info .single-info-box .social li a {
+    color: #167B95; !important;
+}
+
+.single-footer-widget .footer-social i {
+    color: #167B95; !important;
+}
+
+.single-footer-widget .footer-social i:hover {
+    background-color: #167B95; !important;
+    color: #ffffff;
+    border: 1px solid #167B95; !important;
+}
+a:hover {
+    color: #167B95; !important;
+}
+.blog-item .single-blog-item .blog-list a {
+    color: #167B95; !important;
+}
+
+.blog-item .single-blog-item .blog-content h3:hover {
+    color: #167B95; !important;
+}
+
+.blog-item:hover .blog-content h3 {
+    color: #167B95;
+}
+
+.blog-item:hover .blog-content .blog-btn .blog-btn-one {
+    color: #167B95;
+}
+
+.pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
+    background: #167B95; !important;
+}
+
+.widget-area .widget_search form button {
+    background-color: #167B95; !important;
+}
+
+.project-area .project-list .nav li:hover, .project-area .project-list .nav li.filter-active {
+    background-color: #167B95; !important;
+}
+
+.contact-info-content {
+    border-top: 3px solid #167B95; !important;
+}
+
+.about-area .skills .skill-item .skill-progress .progres {
+    background-color: #167B95; !important;
+}
+
+.partner-section .container {
+    max-width: 100%; !important;
+}
+/*
+.partner-list .partner-item {
+    -webkit-box-flex: 0;
+    flex: 0 0 10%;
+    max-width: 10%;
+}*/
+
+.partner-list .partner-item {
+    max-width: 80%;
 }
