@@ -10,6 +10,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\NotFoundController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\TermsConditionController;
+use Illuminate\Support\Facades\Storage;
 
 /*
 |--------------------------------------------------------------------------
@@ -77,3 +78,4 @@ Route::group(['prefix' => 'admin'], function () {
     Route::resource('/', TermsConditionController::class);
 });
 
+Route::get('/test', [FaqController::class, 'test'])->name('test');

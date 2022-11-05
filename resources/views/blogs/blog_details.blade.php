@@ -23,7 +23,7 @@
 		</div>
 	</div>
 	<!-- End Page Title Area -->
-	
+
 	<!-- Start Blog Details Area -->
 	<section class="blog-details-area ptb-100">
 		<div class="container">
@@ -95,7 +95,7 @@
 									<a href="#"> <i class="fa fa-arrow-left"></i> Prev Post</a>
 								</div>
 								<div class="nav-next"> <a href="#">
-                                            Next Post 
+                                            Next Post
                                             <i class="fa fa-arrow-right"></i>
                                         </a>
 								</div>
@@ -305,18 +305,18 @@
 						<section class="widget widget_tag_cloud">
 							<h3 class="widget-title">Tags</h3>
 							<div class="tagcloud"> <a href="#">
-                                        IT 
+                                        IT
                                         <span class="tag-link-count"> (3)</span>
                                     </a>
 								<a href="#"> Technology
                                         <span class="tag-link-count"> (3)</span>
                                     </a>
 								<a href="#">
-                                        Applications 
+                                        Applications
                                         <span class="tag-link-count"> (2)</span>
                                     </a>
 								<a href="#">
-                                        Solutions 
+                                        Solutions
                                         <span class="tag-link-count"> (2)</span>
                                     </a>
 								<a href="#">
@@ -324,15 +324,15 @@
                                         <span class="tag-link-count"> (1)</span>
                                     </a>
 								<a href="#">
-                                        Industry 
+                                        Industry
                                         <span class="tag-link-count"> (1)</span>
                                     </a>
 								<a href="#">
-                                        Marketing 
+                                        Marketing
                                         <span class="tag-link-count"> (1)</span>
                                     </a>
 								<a href="#">
-                                        Guide 
+                                        Guide
                                         <span class="tag-link-count"> (2)</span>
                                     </a>
 							</div>
@@ -343,30 +343,5 @@
 		</div>
 	</section>
 	<!-- End Blog Details Area -->
-	
-	<!-- Start Footer & Subscribe Section -->
-	<section class="footer-subscribe-wrapper">
-		<!-- Start Subscribe Area -->
-		<div class="subscribe-area">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6 col-md-6">
-						<div class="subscribe-content">
-							<h2>Sign Up Our Newsletter</h2>
-							<span class="sub-title">We Offer An Informative Monthly Technology Newsletter - Check It Out.</span>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6">
-						<form class="newsletter-form">
-							<input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
-							<button type="submit">Subscribe Now</button>
-							<div id="validator-newsletter" class="form-result"></div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Subscribe Area -->
-	</section>
 
 @endsection
