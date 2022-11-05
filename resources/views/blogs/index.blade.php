@@ -13,7 +13,7 @@
 					<div class="page-title-content">
 						<h2>Blog Grid</h2>
 						<ul>
-							<li><a href="index.html">Home</a>
+							<li><a href="{{route('home')}}">Home</a>
 							</li>
 							<li>Blog Grid</li>
 						</ul>

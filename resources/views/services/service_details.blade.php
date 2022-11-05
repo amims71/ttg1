@@ -13,7 +13,7 @@
 					<div class="page-title-content">
 						<h2>Services Details</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="{{route('home')}}">Home</a></li>
 							<li>Services Details</li>
 						</ul>
 					</div>
@@ -22,7 +22,7 @@
 		</div>
 	</div>
 	<!-- End Page Title Area -->
-	
+
 	<!-- Start Services Details Area -->
 	<section class="services-details-area ptb-100">
 		<div class="container">
@@ -82,7 +82,7 @@
 								<img src="{{ URL::asset('assets/img/services-details/services-5.jpg')}}" alt="image">
 							</div>
 						</div>
-						
+
 						<div class="services-step-wrapper">
 							<div class="services-step-title">
 								<h2>Benefits Of Software Development Consulting Services (IT Consulting)</h2>

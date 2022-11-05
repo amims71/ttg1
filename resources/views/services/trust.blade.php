@@ -5,7 +5,7 @@
                 <div class="overview-content">
                     <h6>WHY TRUST US?</h6>
                     <h2>Achieve digital transformation for your retail business services</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+{{--                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--}}
                     <ul class="features-list">
                         <li> <span>Protect your Business</span></li>
                         <li> <span>Network Security</span></li>

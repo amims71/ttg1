@@ -17,11 +17,11 @@
                                     incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy
                                     text of the printing.</p>
                                 <div class="banner-btn">
-                                    <a href="about.html" class="default-btn-one">
+                                    <a href="{{route('about')}}" class="default-btn-one">
                                         About Us
                                         <span></span>
                                     </a>
-                                    <a class="default-btn" href="contact.html">
+                                    <a class="default-btn" href="{{route('contact')}}">
                                         Contact Us
                                         <span></span>
                                     </a>

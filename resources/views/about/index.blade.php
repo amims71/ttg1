@@ -13,7 +13,7 @@
 					<div class="page-title-content">
 						<h2>About Us</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="{{route('home')}}">Home</a></li>
 							<li>About Us</li>
 						</ul>
 					</div>

@@ -10,7 +10,7 @@
                 <div class="overview-content">
                     <h6>Why Choose Us?</h6>
                     <h2>Safeguard your brand with Cyber-Security & IT Solutions</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+{{--                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--}}
                     <ul class="features-list">
                         <li> <span>Remote It Assistance</span></li>
                         <li> <span>Solving IT Problems</span></li>

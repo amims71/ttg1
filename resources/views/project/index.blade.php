@@ -13,7 +13,7 @@
 					<div class="page-title-content">
 						<h2>Projects</h2>
 						<ul>
-							<li><a href="index.html">Home</a>
+							<li><a href="{{route('home')}}">Home</a>
 							</li>
 							<li>Projects</li>
 						</ul>
@@ -54,7 +54,7 @@
 							<img src="assets/img/portfolio/portfolio-1.jpg" alt="image">
                             <div class="project-content-overlay">
 								<p>App Store | Social Media</p>
-								<h3><a href="single-projects.html">Creative Web Design</a></h3>
+								<h3><a href="{{route('project.details')}}">Creative Web Design</a></h3>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
 							<img src="assets/img/portfolio/portfolio-2.jpg" alt="image">
                             <div class="project-content-overlay">
 								<p>App Store | Social Media</p>
-								<h3><a href="single-projects.html">Creative Web Design</a></h3>
+								<h3><a href="{{route('project.details')}}">Creative Web Design</a></h3>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
 							<img src="assets/img/portfolio/portfolio-3.jpg" alt="image">
                             <div class="project-content-overlay">
 								<p>App Store | Social Media</p>
-								<h3><a href="single-projects.html">Creative Web Design</a></h3>
+								<h3><a href="{{route('project.details')}}">Creative Web Design</a></h3>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
 							<img src="assets/img/portfolio/portfolio-4.jpg" alt="image">
                             <div class="project-content-overlay">
 								<p>App Store | Social Media</p>
-								<h3><a href="single-projects.html">Creative Web Design</a></h3>
+								<h3><a href="{{route('project.details')}}">Creative Web Design</a></h3>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
 							<img src="assets/img/portfolio/portfolio-5.jpg" alt="image">
                             <div class="project-content-overlay">
 								<p>App Store | Social Media</p>
-								<h3><a href="single-projects.html">Creative Web Design</a></h3>
+								<h3><a href="{{route('project.details')}}">Creative Web Design</a></h3>
                             </div>
                         </div>
                     </div>

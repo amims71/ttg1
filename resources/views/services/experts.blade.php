@@ -1,4 +1,4 @@
-<section class="team-area section-padding">
+<section class="team-area section-padding hidden">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

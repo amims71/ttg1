@@ -30,22 +30,20 @@
 							<div class="footer-heading">
 								<h3>About Us</h3>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco consectetur laboris.</p>
+							<p>
+                                TotalTech Global (TTG) is a premium service provider of Information Technology Services, Business Process Outsourcing and Marketing solutions. Team TTG contains a team of expert professionals with the promise of ensuring 100% client satisfaction.
+                            </p>
 							<ul class="footer-social">
 								<li>
-									<a href="#"> <i class="fab fa-facebook-f"></i>
+									<a href="https://www.facebook.com/TTGSBD/"> <i class="fab fa-facebook-f"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <i class="fab fa-twitter"></i>
+									<a href="https://instagram.com/totaltechglobal"> <i class="fab fa-instagram"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <i class="fab fa-pinterest"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#"> <i class="fab fa-linkedin"></i>
+									<a href="https://www.linkedin.com/company/totaltech-global"> <i class="fab fa-linkedin"></i>
 									</a>
 								</li>
 							</ul>

@@ -6,7 +6,7 @@
 			<div class="container">
 				<div class="techvio-responsive-menu">
 					<div class="logo">
-						<a href="index.html">
+						<a href="{{route('home')}}">
 							<img src="{{ URL::asset('assets/img/logo.png') }}" style="height: 50px;" class="white-logo" alt="logo">
 							<img src="{{ URL::asset('assets/img/logo-black.png') }}" style="height: 50px;" class="black-logo" alt="logo">
 						</a>
@@ -17,7 +17,7 @@
 		<div class="techvio-nav">
 			<div class="container">
 				<nav class="navbar navbar-expand-md navbar-light">
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="{{route('home')}}">
 						<img src="{{ URL::asset('assets/img/logo.png') }}" style="height: 50px;" class="white-logo" alt="logo">
 						<img src="{{ URL::asset('assets/img/logo-black.png') }}" style="height: 50px;" class="black-logo" alt="logo">
 					</a>

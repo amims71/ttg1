@@ -12,7 +12,7 @@
 					<div class="page-title-content">
 						<h2>Frequently Ask Question</h2>
 						<ul>
-							<li><a href="index.html">Home</a>
+							<li><a href="{{route('home')}}">Home</a>
 							</li>
 							<li>Faq</li>
 						</ul>
@@ -22,7 +22,7 @@
 		</div>
 	</div>
 	<!-- End Page Title Area -->
-	
+
 	<!-- Start Faq Section -->
 	<section class="faq-section section-padding">
 		<div class="container">

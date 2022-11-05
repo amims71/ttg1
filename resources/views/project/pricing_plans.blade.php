@@ -4,7 +4,7 @@
 
 @section('section-content')
 
-	
+
 	<!-- Start Page Title Area -->
 	<div class="page-title-area item-bg2">
 		<div class="d-table">
@@ -13,7 +13,7 @@
 					<div class="page-title-content">
 						<h2>Pricing Plans</h2>
 						<ul>
-							<li><a href="index.html">Home</a>
+							<li><a href="{{route('home')}}">Home</a>
 							</li>
 							<li>Pricing</li>
 						</ul>
@@ -23,7 +23,7 @@
 		</div>
 	</div>
 	<!-- End Page Title Area -->
-	
+
 	<!-- Start Pricing Section -->
 	<section class="price-area pt-100 pb-70">
 		<div class="container">
@@ -51,11 +51,11 @@
 								<li>Personal Use</li>
 								<li>Unlimited Projects</li>
 								<li>Project Management</li>
-								<li class="offer-list-none"><del>27/7 Support</del> 
+								<li class="offer-list-none"><del>27/7 Support</del>
 								</li>
-								<li class="offer-list-none"><del>Basic support on Github</del> 
+								<li class="offer-list-none"><del>Basic support on Github</del>
 								</li>
-								<li class="offer-list-none"><del>Help center access</del> 
+								<li class="offer-list-none"><del>Help center access</del>
 								</li>
 							</ul>
 						</div>
@@ -79,9 +79,9 @@
 								<li>Unlimited Projects</li>
 								<li>Project Management</li>
 								<li>27/7 Support</li>
-								<li class="offer-list-none"><del>Basic support on Github</del> 
+								<li class="offer-list-none"><del>Basic support on Github</del>
 								</li>
-								<li class="offer-list-none"><del>Help center access</del> 
+								<li class="offer-list-none"><del>Help center access</del>
 								</li>
 							</ul>
 						</div>
@@ -117,7 +117,7 @@
 		</div>
 	</section>
 	<!-- End Pricing Section -->
-	
+
 	<!-- Start Footer & Subscribe Section -->
 	<section class="footer-subscribe-wrapper">
 		<!-- Start Subscribe Area -->

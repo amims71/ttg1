@@ -43,7 +43,7 @@ Auth::routes();
 
 // project
 Route::get('/project', [ProjectController::class, 'index'])->name('project');
-Route::get('/project/details', [ProjectController::class, 'project_details'])->name('project_details');
+Route::get('/project/details', [ProjectController::class, 'project_details'])->name('project.details');
 Route::get('/project/pricing-plans', [ProjectController::class, 'pricing_plans'])->name('pricing_plans');
 
 // services
@@ -56,7 +56,7 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 // blogs
 Route::get('/blogs', [BlogsController::class, 'index'])->name('blogs');
-Route::get('/blogs/details', [BlogsController::class, 'blogs_details'])->name('blogs_details');
+Route::get('/blogs/details', [BlogsController::class, 'blogs_details'])->name('blog.details');
 
 // about
 Route::get('/about', [AboutController::class, 'index'])->name('about');
