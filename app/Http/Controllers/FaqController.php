@@ -10,4 +10,9 @@ class FaqController extends Controller
     {
         return view('faq.index');
     }
+
+    public function pricing()
+    {
+        return view('price.index');
+    }
 }

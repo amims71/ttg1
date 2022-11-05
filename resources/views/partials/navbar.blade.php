@@ -61,7 +61,7 @@
 										<a href="{{ route('about') }}" class="nav-link">Team</a>
 									</li>
 									<li class="nav-item">
-										<a href="{{ route('about') }}" class="nav-link">Pricing</a>
+										<a href="{{ route('pricing') }}" class="nav-link">Pricing</a>
 									</li>
 									<li class="nav-item">
 										<a href="{{ route('about') }}" class="nav-link">404 Error</a>
