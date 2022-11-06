@@ -176,3 +176,7 @@ a:hover {
 .partner-list .partner-item {
     max-width: 80%;
 }
+
+.footer-subscribe-wrapper {
+    background-image: url("../img/wp/footer-bg2.jpg");
+}
